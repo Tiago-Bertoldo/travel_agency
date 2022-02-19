@@ -1,0 +1,252 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    justify-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.orange {
+    color: orange;
+}
+header nav {
+    display: flex;
+    min-height: 7em;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0.3em;
+    flex-direction: row;
+}
+
+header nav li {
+    padding: 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* ######## END HEADER ######## */
+#main-img  {
+    display: flex;
+    background: url(../img/main.jpg) center;
+    min-height: 580px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#main-img p {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p_strong {
+    margin-top: 6em;
+}
+#main-img input {
+    margin-top: 1em;
+    width: 7em;
+    height: 3em;
+    background-color: rgb(247, 183, 64);
+    border: none;
+    color: rgb(252, 252, 252);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+/* ######## END MAIN-IMG ######## */
+#steps {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6em;
+ 
+}
+.planifier , .voyager , .organiser {
+    width: 50%;
+    max-width: 25em;
+    min-width: 15em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6em;
+}
+#steps p {
+    margin-top: 2em;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height:2em;
+}
+#steps h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    color: gray;
+}
+.title {
+    font-size: 20px;
+}
+/* ######## END STEPS ######## */
+#possibilities {
+    min-height: 400px;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6em;
+    flex-wrap: wrap;
+}
+.partez , .envie {
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    min-width: 40em;
+    max-width: 10em;
+    z-index: 1;
+}
+.partez {
+    background: url(../img/article-image-1.jpg) no-repeat;
+    background-position: center;
+
+}
+.partez article , .envie article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.partez article h2 , .envie article h2{
+    color: gray;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+}
+#possibilities article p {
+    border-top: 1px solid black;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10em;
+    margin: 2em 0 0 3em;
+    font-style: italic;
+    padding: 1em;
+}
+#possibilities input {
+    margin-top: 1em;
+    width:8em;
+    height: 3em;
+    background-color: rgb(247, 183, 64);
+    border: none;
+    color: rgb(252, 252, 252);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.envie {
+    background: url(../img/article-image-2.jpg) no-repeat;
+    background-position: center;
+    
+}
+.partez article ,.envie article {
+    display: flex;
+    width:  45%;
+    height: 100%;
+    background-color: white;
+
+}
+/* ######## END POSSIBILITES ######## */
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+#contact h2 {
+    margin-top: 2em;
+
+
+}
+#contact span {
+    margin-top: 2em;
+    width: 550px;
+    border-bottom: 1px solid black;
+}
+
+#contact article {
+    margin-top: 2em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.inputs  {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+
+.inputs label {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"] {
+    padding: 1em;
+    width: 20em;
+    align-items: center;
+}
+input[type="submit"]  {
+    background-color: rgb(119, 163, 243);
+    padding: 1em;
+    margin-left: 1em;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+}
+/* ######## END contact ######## */
+
+#footer {
+    min-height: 200px;
+    background-color: rgb(80, 78, 78);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2em;
+    align-items: center;    
+    
+}
+#footer h2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 1em;
+    
+}
+
+#footer p {
+    padding: 1em;
+    font-size: 12px;
+}
